@@ -124,7 +124,6 @@ class LitUtils {
       data: new Uint8Array(decryptedFile),
       memetype: "application/octet-stream",
     });
-    console.log("finalFile", finalFile);
   }
 
   async buy(_metadataUrl) {
